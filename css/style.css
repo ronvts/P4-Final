@@ -32,6 +32,7 @@ blockquote .quote {
     margin-bottom: 3vh;
 }
 blockquote footer {
+    color: #333333;
     font-size: 18px;
 }
 
@@ -374,7 +375,7 @@ a[data-lightbox]:hover img {
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: black;
+    color: #333333;
 }
 
 .container {
@@ -466,6 +467,7 @@ h3 {
 }
 
 .bold-link {
+    font-size: 18px;
     font-weight: 900;
     text-decoration: underline;
 }
@@ -510,9 +512,13 @@ h3 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956;
+    color: #F3976C;
+    opacity: 70%;
 }
 
+.tangerine {
+    color: #F3976C
+}
 .bg-banniere {
     background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
