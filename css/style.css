@@ -20,7 +20,7 @@ a:hover {
 
 blockquote .quote {
     font-size: 1em;
-    margin-top: 2em
+    margin-top: 2vh;
 }
 
 .portfolio {
@@ -328,9 +328,6 @@ a,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
     font-family: helvetica;
     font-weight: 400;
@@ -459,11 +456,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url(img/la-chouette-agence-banniere.jpg)
+    background-image: url(../img/la-chouette-agence-banniere.jpg)
 }
 
 .bg-presentation {
-    background-image: url(img/image-de-presentation.jpg)
+    background-image: url(../img/image-de-presentation.jpg)
 }
 
 @media (max-width:1024px) {
