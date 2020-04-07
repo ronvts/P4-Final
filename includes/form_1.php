@@ -1,6 +1,7 @@
 <?php	
 	if(empty($_POST['name']) && strlen($_POST['name']) == 0 || empty($_POST['email']) && strlen($_POST['email']) == 0 || empty($_POST['input_504']) && strlen($_POST['input_504']) == 0 || empty($_POST['message']) && strlen($_POST['message']) == 0)
 	{
+		echo "Une erreur est survenue. Veuillez recommencer.";
 		return false;
 	}
 	
@@ -9,7 +10,7 @@
 	$input_504 = $_POST['input_504'];
 	$message = $_POST['message'];
 	
-	$to = 'receiver@yoursite.com'; // Email submissions are sent to this email
+	$to = 'ronan.vetois@gmail.com'; // Email submissions are sent to this email
 
 	// Create email	
 	$email_subject = "Message from your website";
@@ -20,5 +21,6 @@
 	$headers .= "Reply-To: $input_504";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
+	echo "Votre message a été envoyé."
 	return true;			
 ?>
