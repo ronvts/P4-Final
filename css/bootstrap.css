@@ -102,9 +102,12 @@ body {
 }
 .form-group {
     display: flex;
+    font-weight: 600;
     flex-direction: column;
+    vertical-align: middle;
     margin-bottom: 20px;
 }
+
 label {
     width: 100%;
 }
@@ -145,41 +148,19 @@ img {
     cursor: pointer
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
     color: inherit
 }
 
-.h1,
-.h2,
-.h3,
 h1,
 h2,
 h3 {
     margin-top: 20px;
-    margin-bottom: 10px
-}
-
-.h4,
-.h5,
-.h6,
-h4,
-h5,
-h6 {
-    margin-top: 10px;
     margin-bottom: 10px
 }
 
@@ -196,21 +177,6 @@ h2 {
 .h3,
 h3 {
     font-size: 24px
-}
-
-.h4,
-h4 {
-    font-size: 18px
-}
-
-.h5,
-h5 {
-    font-size: 14px
-}
-
-.h6,
-h6 {
-    font-size: 12px
 }
 
 p {

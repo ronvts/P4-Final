@@ -176,6 +176,8 @@ blockquote footer {
 }
 
 .mg-lg {
+    font-size: 18px;
+    font-weight: 500;
     margin-top: 10px;
     margin-bottom: 40px;
 }
@@ -386,10 +388,6 @@ a {
     font-size: 38px;
 }
 
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
 p {
     font-size: 16px;
 }
@@ -591,7 +589,7 @@ h3 {
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
-        float: none;
+        float: right;
         margin: 10px auto 0;
     }
 }
