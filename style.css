@@ -18,6 +18,13 @@ a:hover {
     cursor: pointer;
 }
 
+blockquote .quote {
+    font-size: 1em;
+    margin-top: 2em;
+}
+.portfolio {
+    margin-bottom: 2em;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
