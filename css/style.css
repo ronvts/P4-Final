@@ -7,6 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+footer {
+    font-size: 40px;
+    width: 100%;
+    bottom: 0;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -52,7 +58,7 @@ blockquote footer {
 }
 
 .bloc-lg {
-    padding: 50px;
+    padding: 70px;
 }
 
 .bloc-md {
@@ -174,7 +180,9 @@ blockquote footer {
 }
 
 .btn {
-    margin: 0 5px 5px 0;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 5px 5px 0;;
 }
 
 .btn.pull-right {
@@ -186,10 +194,6 @@ blockquote footer {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none;
 }
 
 .btn-rd {
@@ -386,7 +390,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -483,6 +487,7 @@ h3 {
 }
 
 .btn-atomic-tangerine {
+    width: max-content;
     background: #F3976C;
     color: #FFFFFF;
 }

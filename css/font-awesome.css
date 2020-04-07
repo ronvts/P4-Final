@@ -123,7 +123,7 @@
 .fa-s15:before {
     content: "\f2cd"
 }
-
+/* et-line */
 @font-face {
     font-family: et-line;
     src: url(../fonts/et-line.eot);

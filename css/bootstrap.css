@@ -54,7 +54,7 @@ button {
 }
 
 button {
-    overflow: visible
+    overflow: visible;
 }
 
 button {
@@ -100,7 +100,14 @@ body {
     color: #333;
     background-color: #fff
 }
-
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+label {
+    width: 100%;
+}
 button {
     font-family: inherit;
     font-size: inherit;
@@ -404,7 +411,7 @@ blockquote footer:before {
 .btn-lg {
     padding: 10px 16px;
     font-size: 18px;
-    line-height: 1.3333333;
+    line-height: 1.33;
     border-radius: 6px
 }
 
@@ -484,13 +491,9 @@ blockquote footer:before {
     .navbar {
         border-radius: 4px
     }
-}
-
-@media (min-width:768px) {
     .navbar-header {
         float: left
     }
-}
 
 .navbar-collapse {
     padding-right: 15px;
@@ -501,7 +504,12 @@ blockquote footer:before {
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
 }
-
+.container>.navbar-collapse,
+.container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px
+}
+}
 @media (min-width:768px) {
     .navbar-collapse {
         width: auto;
@@ -516,12 +524,6 @@ blockquote footer:before {
         padding-bottom: 0;
         overflow: visible !important
     }
-}
-
-.container>.navbar-collapse,
-.container>.navbar-header {
-    margin-right: -15px;
-    margin-left: -15px
 }
 
 @media (min-width:768px) {
@@ -616,16 +618,9 @@ blockquote footer:before {
 }
 
 .navbar-text {
+    float: left;
     margin-top: 15px;
     margin-bottom: 15px
-}
-
-@media (min-width:768px) {
-    .navbar-text {
-        float: left;
-        margin-right: 15px;
-        margin-left: 15px
-    }
 }
 
 @-webkit-keyframes progress-bar-stripes {
