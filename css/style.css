@@ -536,6 +536,7 @@ h3 {
     margin-right: 25%;
 }
 .flex-social {
+    list-style: none;
     display: flex;
     justify-content: center;
 }
