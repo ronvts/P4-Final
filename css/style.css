@@ -203,13 +203,6 @@ blockquote footer {
     border-radius: 40px;
 }
 
-.btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-}
-
 .icon-md {
     font-size: 30px;
 }
@@ -385,7 +378,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 40px;
 }
 
 p {
@@ -463,6 +456,10 @@ h3 {
     background-color: rgba(0, 0, 0, .5);
     padding: 3%;
 }
+.black {
+    color: rgba(0, 0, 0, .7);
+    font-weight: 500;
+}
 
 .bold-link {
     font-size: 18px;
@@ -488,8 +485,12 @@ h3 {
 
 .btn-atomic-tangerine {
     width: max-content;
-    background: #F3976C;
-    color: #FFFFFF;
+    background:rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    border-color: #F3976C;
+    color: #F3976C;
+    border-width: 2px;
+    font-size: 20px;
 }
 
 .btn-atomic-tangerine:hover {
