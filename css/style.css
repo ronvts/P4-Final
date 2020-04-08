@@ -406,6 +406,7 @@ h1 {
 }
 
 .social {
+    list-style:none;
     max-width: 400px;
     margin: auto;
 }
