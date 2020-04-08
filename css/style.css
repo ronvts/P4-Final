@@ -18,7 +18,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none;
 }
-
+ul li {
+    list-style: none;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -406,7 +408,6 @@ h1 {
 }
 
 .social {
-    list-style:none;
     max-width: 400px;
     margin: auto;
 }
@@ -536,7 +537,6 @@ h3 {
     margin-right: 25%;
 }
 .flex-social {
-    list-style: none;
     display: flex;
     justify-content: center;
 }
