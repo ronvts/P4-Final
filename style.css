@@ -395,11 +395,11 @@ h3 {
     color: #eea684;
 }
 .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 .flex-form {
